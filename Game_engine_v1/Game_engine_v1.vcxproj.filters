@@ -1,0 +1,422 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="game">
+      <UniqueIdentifier>{9de8249c-43a7-456b-b316-3ff788016984}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="engine">
+      <UniqueIdentifier>{4a673b69-d69b-4943-9b8d-a92c4b3c6f39}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="utils">
+      <UniqueIdentifier>{67bd95b8-5b9a-48c6-be32-64add42cdc26}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="game\entities">
+      <UniqueIdentifier>{703ba695-5a0a-40d6-b4ad-2e656367db57}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="game\scenes">
+      <UniqueIdentifier>{79122c26-284d-45d4-b0a8-a6f1224bdda6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="game\components">
+      <UniqueIdentifier>{b663ac75-186b-4636-9ca7-7ea53f080b61}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="engine\graphics">
+      <UniqueIdentifier>{374b2310-8bf4-475e-8900-bf93b618bf29}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="engine\physics">
+      <UniqueIdentifier>{c41e51c9-1b20-4fab-9308-3939eeae9f3a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="engine\audio">
+      <UniqueIdentifier>{a33e7dad-b5d7-465e-8e87-04625a59c807}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="game\ui">
+      <UniqueIdentifier>{5698b0a4-1710-43d5-ac8f-937cda652de1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="game\ui\menus">
+      <UniqueIdentifier>{53db74ad-297f-4e50-ade0-309f4a736b42}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="game\ui\components">
+      <UniqueIdentifier>{e716af40-7a50-4c1c-9850-d027489e202b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="game\gameplay">
+      <UniqueIdentifier>{d6174287-f3ab-429c-be36-2e3b20cdaa67}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="game\gameplay\camera">
+      <UniqueIdentifier>{85af9c8a-f485-4e2a-945f-77b7b219c201}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="engine\graphics\window">
+      <UniqueIdentifier>{0bb13ea2-b7a5-4445-ad9f-547784a25a26}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="engine\graphics\vulkan">
+      <UniqueIdentifier>{63f34b2d-d4ea-4328-8523-3bc0ebc6ea83}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="engine\keyboard">
+      <UniqueIdentifier>{8ec45423-8938-451e-991e-569e96fd3c26}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="utils\templates_for_develepment">
+      <UniqueIdentifier>{cfe541be-e022-44f8-9405-6e362763d086}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="utils\fileUtilities">
+      <UniqueIdentifier>{3c852141-5e86-4d27-afde-9a73963cdb83}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="engine\graphics\vulkan\aa_createInstance">
+      <UniqueIdentifier>{fa3f5dcb-a3e5-4d33-a0bc-ad3760e1cda5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="engine\graphics\vulkan\ba_drawFrame">
+      <UniqueIdentifier>{e080fc40-7eb1-4dad-8221-2bd83dfcedb1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="engine\graphics\camera">
+      <UniqueIdentifier>{734a266f-cd86-43b6-a2ed-a7ec142d6cca}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="engine\graphics\vulkan\ab_setupDebugMessenger">
+      <UniqueIdentifier>{9177422d-454d-41c6-9c60-f705493f20e1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="engine\graphics\vulkan\ac_createSurface">
+      <UniqueIdentifier>{4dc243d7-2766-40b8-807f-13da3f192dfb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="engine\graphics\vulkan\ad_pickPhysicalDevice">
+      <UniqueIdentifier>{3677602d-4b4b-437b-af55-ed5698b4db64}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="engine\graphics\vulkan\ae_createLogicalDevice">
+      <UniqueIdentifier>{5a9bc591-7c79-4539-abe3-9e3d558db4f4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="engine\graphics\vulkan\af_createSwapChain">
+      <UniqueIdentifier>{52199ca3-1065-428d-8565-d3dba5bdb27e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="engine\graphics\vulkan\ag_createImageViews">
+      <UniqueIdentifier>{b7d8d562-09c1-4ee9-a766-4e042051c103}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="engine\graphics\vulkan\ah_createRenderPass">
+      <UniqueIdentifier>{e86b14f2-48cb-4524-8484-02bf21aa3e21}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="engine\graphics\vulkan\ai_createDescriptorSetLayout">
+      <UniqueIdentifier>{294af035-4dd9-437f-a69c-f380abe1fb37}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="engine\graphics\vulkan\aj_createGraphicsPipeline">
+      <UniqueIdentifier>{ce887ef5-0069-431b-aa29-776d7ca56138}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="engine\graphics\vulkan\ak_vertex">
+      <UniqueIdentifier>{1d0cbd8d-09a0-4f7f-88ce-86cc80d0c953}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="engine\graphics\vulkan\al_createCommandPool">
+      <UniqueIdentifier>{cb071b8e-df09-4ba0-9e4e-ac9ef704d2ef}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="engine\graphics\vulkan\am_createColorResources">
+      <UniqueIdentifier>{af0087f3-61c3-43a8-87cb-48fef2a6ad9b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="engine\graphics\vulkan\an_createDepthResources">
+      <UniqueIdentifier>{f5423a22-2e65-4755-a0ca-abbae25b379c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="engine\graphics\vulkan\ao_createFramebuffers">
+      <UniqueIdentifier>{f2a89cd2-a89a-40b1-a479-13026bebaf94}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="engine\graphics\vulkan\ap_createTextureImage">
+      <UniqueIdentifier>{d543da2a-2c9b-42d8-9be9-a77b0b97d889}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="engine\graphics\vulkan\aq_CreateTextureImageView">
+      <UniqueIdentifier>{4a1ff575-2543-4ab6-8fd7-353c4cb991a8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="engine\graphics\vulkan\ar_CreateTextureSampler">
+      <UniqueIdentifier>{dd5197ef-2dcf-4056-81c4-4a4c86809d4f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="engine\graphics\vulkan\as_LoadModel">
+      <UniqueIdentifier>{28859861-9bfa-497f-b5b6-ea1683f57e16}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="engine\graphics\vulkan\at_CreateVertexBuffer">
+      <UniqueIdentifier>{941d579c-44e4-4cc6-ad45-850ffb0c9610}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="engine\graphics\vulkan\au_CreateIndexBuffer">
+      <UniqueIdentifier>{5e3f4837-b1b9-420c-a3ea-2544dc889fc5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="engine\graphics\vulkan\av_createUniformBuffers">
+      <UniqueIdentifier>{dd16cfa5-1042-4fd7-b4e9-4a7bc91bfa9c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="engine\graphics\vulkan\aw_createDescriptorPool">
+      <UniqueIdentifier>{fa03f73c-5430-40d7-a52f-3689aa8570bd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="engine\graphics\vulkan\ax_createDescriptorSets">
+      <UniqueIdentifier>{ba1705aa-9251-4c41-b81a-ba8eca2558cc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="engine\graphics\vulkan\ay_createCommandBuffers">
+      <UniqueIdentifier>{edd2c988-401a-45b3-ac2d-b462eea4f367}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="engine\graphics\vulkan\az_createSyncObjects">
+      <UniqueIdentifier>{a6f87387-935f-4ed2-9254-e5f118f64d04}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="engine\graphics\vulkan\bb_glm_includes">
+      <UniqueIdentifier>{1dbfa9e0-5a3e-42df-a4af-3c131d344b59}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="engine\graphics\vulkan\bc_loadModels">
+      <UniqueIdentifier>{d24919f9-a13f-4344-ba7d-f5f2fac4e4a6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="game\logic">
+      <UniqueIdentifier>{0f3ab712-58fc-4e86-b5ee-383c24e7235d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="game\logic\skybox">
+      <UniqueIdentifier>{885edb32-6f71-4bb3-9512-a63449ae6963}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="FileNamev.cpp">
+      <Filter>game\entities</Filter>
+    </ClCompile>
+    <ClCompile Include="FileNamea.cpp">
+      <Filter>game\scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="FileNamde.cpp">
+      <Filter>game\components</Filter>
+    </ClCompile>
+    <ClCompile Include="graphics.cpp">
+      <Filter>engine\graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="game.cpp">
+      <Filter>game</Filter>
+    </ClCompile>
+    <ClCompile Include="engine.cpp">
+      <Filter>engine</Filter>
+    </ClCompile>
+    <ClCompile Include="audio.cpp">
+      <Filter>engine\audio</Filter>
+    </ClCompile>
+    <ClCompile Include="logic.cpp">
+      <Filter>game\gameplay</Filter>
+    </ClCompile>
+    <ClCompile Include="math.cpp">
+      <Filter>utils</Filter>
+    </ClCompile>
+    <ClCompile Include="button.cpp">
+      <Filter>game\ui\components</Filter>
+    </ClCompile>
+    <ClCompile Include="povcamera.cpp">
+      <Filter>game\gameplay\camera</Filter>
+    </ClCompile>
+    <ClCompile Include="window.cpp">
+      <Filter>engine\graphics\window</Filter>
+    </ClCompile>
+    <ClCompile Include="vulkan.cpp">
+      <Filter>engine\graphics\vulkan</Filter>
+    </ClCompile>
+    <ClCompile Include="template_namespace.cpp">
+      <Filter>utils\templates_for_develepment</Filter>
+    </ClCompile>
+    <ClCompile Include="keyboard.cpp">
+      <Filter>engine\keyboard</Filter>
+    </ClCompile>
+    <ClCompile Include="createInstance.cpp">
+      <Filter>engine\graphics\vulkan\aa_createInstance</Filter>
+    </ClCompile>
+    <ClCompile Include="setupDebugMessager.cpp">
+      <Filter>engine\graphics\vulkan\ab_setupDebugMessenger</Filter>
+    </ClCompile>
+    <ClCompile Include="createSurface.cpp">
+      <Filter>engine\graphics\vulkan\ac_createSurface</Filter>
+    </ClCompile>
+    <ClCompile Include="pickPhysicalDevice.cpp">
+      <Filter>engine\graphics\vulkan\ad_pickPhysicalDevice</Filter>
+    </ClCompile>
+    <ClCompile Include="createLogicalDevice.cpp">
+      <Filter>engine\graphics\vulkan\ae_createLogicalDevice</Filter>
+    </ClCompile>
+    <ClCompile Include="createSwapChain.cpp">
+      <Filter>engine\graphics\vulkan\af_createSwapChain</Filter>
+    </ClCompile>
+    <ClCompile Include="createImageViews.cpp">
+      <Filter>engine\graphics\vulkan\ag_createImageViews</Filter>
+    </ClCompile>
+    <ClCompile Include="createRenderPass.cpp">
+      <Filter>engine\graphics\vulkan\ah_createRenderPass</Filter>
+    </ClCompile>
+    <ClCompile Include="createDescriptorSetLayout.cpp">
+      <Filter>engine\graphics\vulkan\ai_createDescriptorSetLayout</Filter>
+    </ClCompile>
+    <ClCompile Include="createGraphicsPipeline.cpp">
+      <Filter>engine\graphics\vulkan\aj_createGraphicsPipeline</Filter>
+    </ClCompile>
+    <ClCompile Include="fileUtilities.cpp">
+      <Filter>utils\fileUtilities</Filter>
+    </ClCompile>
+    <ClCompile Include="vertex.cpp">
+      <Filter>engine\graphics\vulkan\ak_vertex</Filter>
+    </ClCompile>
+    <ClCompile Include="createCommandPool.cpp">
+      <Filter>engine\graphics\vulkan\al_createCommandPool</Filter>
+    </ClCompile>
+    <ClCompile Include="createColorResources.cpp">
+      <Filter>engine\graphics\vulkan\am_createColorResources</Filter>
+    </ClCompile>
+    <ClCompile Include="createFramebuffers.cpp">
+      <Filter>engine\graphics\vulkan\ao_createFramebuffers</Filter>
+    </ClCompile>
+    <ClCompile Include="createDepthResources.cpp">
+      <Filter>engine\graphics\vulkan\an_createDepthResources</Filter>
+    </ClCompile>
+    <ClCompile Include="createTextureImage.cpp">
+      <Filter>engine\graphics\vulkan\ap_createTextureImage</Filter>
+    </ClCompile>
+    <ClCompile Include="CreateTextureImageView.cpp">
+      <Filter>engine\graphics\vulkan\aq_CreateTextureImageView</Filter>
+    </ClCompile>
+    <ClCompile Include="CreateTextureSampler.cpp">
+      <Filter>engine\graphics\vulkan\ar_CreateTextureSampler</Filter>
+    </ClCompile>
+    <ClCompile Include="LoadModel.cpp">
+      <Filter>engine\graphics\vulkan\as_LoadModel</Filter>
+    </ClCompile>
+    <ClCompile Include="CreateVertexBuffer.cpp">
+      <Filter>engine\graphics\vulkan\at_CreateVertexBuffer</Filter>
+    </ClCompile>
+    <ClCompile Include="CreateIndexBuffer.cpp">
+      <Filter>engine\graphics\vulkan\au_CreateIndexBuffer</Filter>
+    </ClCompile>
+    <ClCompile Include="createUniformBuffers.cpp">
+      <Filter>engine\graphics\vulkan\av_createUniformBuffers</Filter>
+    </ClCompile>
+    <ClCompile Include="createDescriptorPool.cpp">
+      <Filter>engine\graphics\vulkan\aw_createDescriptorPool</Filter>
+    </ClCompile>
+    <ClCompile Include="createDescriptorSets.cpp">
+      <Filter>engine\graphics\vulkan\ax_createDescriptorSets</Filter>
+    </ClCompile>
+    <ClCompile Include="createCommandBuffers.cpp">
+      <Filter>engine\graphics\vulkan\ay_createCommandBuffers</Filter>
+    </ClCompile>
+    <ClCompile Include="createSyncObjects.cpp">
+      <Filter>engine\graphics\vulkan\az_createSyncObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="drawFrame.cpp">
+      <Filter>engine\graphics\vulkan\ba_drawFrame</Filter>
+    </ClCompile>
+    <ClCompile Include="camera.cpp">
+      <Filter>engine\graphics\camera</Filter>
+    </ClCompile>
+    <ClCompile Include="loadModels.cpp">
+      <Filter>engine\graphics\vulkan\bc_loadModels</Filter>
+    </ClCompile>
+    <ClCompile Include="skybox.cpp">
+      <Filter>game\logic\skybox</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="graphics.h">
+      <Filter>engine\graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="engine.h">
+      <Filter>engine</Filter>
+    </ClInclude>
+    <ClInclude Include="game.h">
+      <Filter>game</Filter>
+    </ClInclude>
+    <ClInclude Include="povcamera.h">
+      <Filter>game\gameplay\camera</Filter>
+    </ClInclude>
+    <ClInclude Include="window.h">
+      <Filter>engine\graphics\window</Filter>
+    </ClInclude>
+    <ClInclude Include="main.h" />
+    <ClInclude Include="vulkan.h">
+      <Filter>engine\graphics\vulkan</Filter>
+    </ClInclude>
+    <ClInclude Include="template_namespace.h">
+      <Filter>utils\templates_for_develepment</Filter>
+    </ClInclude>
+    <ClInclude Include="keyboard.h">
+      <Filter>engine\keyboard</Filter>
+    </ClInclude>
+    <ClInclude Include="createInstance.h">
+      <Filter>engine\graphics\vulkan\aa_createInstance</Filter>
+    </ClInclude>
+    <ClInclude Include="setupDebugMessenger.h">
+      <Filter>engine\graphics\vulkan\ab_setupDebugMessenger</Filter>
+    </ClInclude>
+    <ClInclude Include="createSurface.h">
+      <Filter>engine\graphics\vulkan\ac_createSurface</Filter>
+    </ClInclude>
+    <ClInclude Include="pickPhysicalDevice.h">
+      <Filter>engine\graphics\vulkan\ad_pickPhysicalDevice</Filter>
+    </ClInclude>
+    <ClInclude Include="createLogicalDevice.h">
+      <Filter>engine\graphics\vulkan\ae_createLogicalDevice</Filter>
+    </ClInclude>
+    <ClInclude Include="createSwapChain.h">
+      <Filter>engine\graphics\vulkan\af_createSwapChain</Filter>
+    </ClInclude>
+    <ClInclude Include="createImageViews.h">
+      <Filter>engine\graphics\vulkan\ag_createImageViews</Filter>
+    </ClInclude>
+    <ClInclude Include="createRenderPass.h">
+      <Filter>engine\graphics\vulkan\ah_createRenderPass</Filter>
+    </ClInclude>
+    <ClInclude Include="createDescriptorSetLayout.h">
+      <Filter>engine\graphics\vulkan\ai_createDescriptorSetLayout</Filter>
+    </ClInclude>
+    <ClInclude Include="createGraphicsPipeline.h">
+      <Filter>engine\graphics\vulkan\aj_createGraphicsPipeline</Filter>
+    </ClInclude>
+    <ClInclude Include="fileUtilities.h">
+      <Filter>utils\fileUtilities</Filter>
+    </ClInclude>
+    <ClInclude Include="vertex.h">
+      <Filter>engine\graphics\vulkan\ak_vertex</Filter>
+    </ClInclude>
+    <ClInclude Include="createCommandPool.h">
+      <Filter>engine\graphics\vulkan\al_createCommandPool</Filter>
+    </ClInclude>
+    <ClInclude Include="createColorResources.h">
+      <Filter>engine\graphics\vulkan\am_createColorResources</Filter>
+    </ClInclude>
+    <ClInclude Include="createFramebuffers.h">
+      <Filter>engine\graphics\vulkan\ao_createFramebuffers</Filter>
+    </ClInclude>
+    <ClInclude Include="createDepthResources.h">
+      <Filter>engine\graphics\vulkan\an_createDepthResources</Filter>
+    </ClInclude>
+    <ClInclude Include="createTextureImage.h">
+      <Filter>engine\graphics\vulkan\ap_createTextureImage</Filter>
+    </ClInclude>
+    <ClInclude Include="CreateTextureImageView.h">
+      <Filter>engine\graphics\vulkan\aq_CreateTextureImageView</Filter>
+    </ClInclude>
+    <ClInclude Include="CreateTextureSampler.h">
+      <Filter>engine\graphics\vulkan\ar_CreateTextureSampler</Filter>
+    </ClInclude>
+    <ClInclude Include="LoadModel.h">
+      <Filter>engine\graphics\vulkan\as_LoadModel</Filter>
+    </ClInclude>
+    <ClInclude Include="CreateVertexBuffer.h">
+      <Filter>engine\graphics\vulkan\at_CreateVertexBuffer</Filter>
+    </ClInclude>
+    <ClInclude Include="CreateIndexBuffer.h">
+      <Filter>engine\graphics\vulkan\au_CreateIndexBuffer</Filter>
+    </ClInclude>
+    <ClInclude Include="createUniformBuffers.h">
+      <Filter>engine\graphics\vulkan\av_createUniformBuffers</Filter>
+    </ClInclude>
+    <ClInclude Include="createDescriptorPool.h">
+      <Filter>engine\graphics\vulkan\aw_createDescriptorPool</Filter>
+    </ClInclude>
+    <ClInclude Include="createDescriptorSets.h">
+      <Filter>engine\graphics\vulkan\ax_createDescriptorSets</Filter>
+    </ClInclude>
+    <ClInclude Include="createCommandBuffers.h">
+      <Filter>engine\graphics\vulkan\ay_createCommandBuffers</Filter>
+    </ClInclude>
+    <ClInclude Include="createSyncObjects.h">
+      <Filter>engine\graphics\vulkan\az_createSyncObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="drawFrame.h">
+      <Filter>engine\graphics\vulkan\ba_drawFrame</Filter>
+    </ClInclude>
+    <ClInclude Include="camera.h">
+      <Filter>engine\graphics\camera</Filter>
+    </ClInclude>
+    <ClInclude Include="glm_includes.h">
+      <Filter>engine\graphics\vulkan\bb_glm_includes</Filter>
+    </ClInclude>
+    <ClInclude Include="loadModels.h">
+      <Filter>engine\graphics\vulkan\bc_loadModels</Filter>
+    </ClInclude>
+    <ClInclude Include="skybox.h">
+      <Filter>game\logic\skybox</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
